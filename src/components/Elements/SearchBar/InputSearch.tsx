@@ -17,6 +17,7 @@ const InputSearch = () => {
       <button
         onClick={() => {
           if (inputRef.current) inputRef.current.value = ''
+          ctx?.setQuery('')
           setIsSearchOpen(false)
         }}
         className='absolute right-2 top-1/2 -translate-y-1/2 opacity-10'
