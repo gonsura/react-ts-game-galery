@@ -52,7 +52,7 @@ const useGetdata = () => {
         const data = await axios.get(import.meta.env.VITE_BASE_URL, {
           cancelToken: cancelToken.token,
         })
-        const results = data.data.results
+        const results: Res[] = data.data.results
         if (
           'id' in results[0] &&
           'name' in results[0] &&

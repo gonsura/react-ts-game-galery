@@ -24,7 +24,7 @@ const InputSearch = () => {
       >
         <i
           className={`${
-            isSearchOpen ? 'ri-close-line text-3xl' : 'ri-search-line text-2xl'
+            isSearchOpen ? 'ri-close-line text-3xl' : ' text-2xl'
           } font-semibold text-slate-300`}
         ></i>
       </button>
